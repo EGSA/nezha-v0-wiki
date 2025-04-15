@@ -4,25 +4,12 @@ export default defineConfig({
   lastUpdated: true,
   lang: 'zh-CN',
   head: [
-    ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', async: 'true' }],
-    [
-      'script',
-      {
-        async: '',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-FDME8GJGTW'
-      }
-    ],
-    [
-      'script',
-      {},
-      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-FDME8GJGTW');"
-    ],
     [
       'script',
       {
         async: '',
         crossorigin: 'anonymous',
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3632738952115558'
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4162962838193717'
       },
     ],
     ['link', { rel: 'icon', type: 'image/png', sizes: '193x193', href: '/logo.png' }],
